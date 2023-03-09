@@ -1,0 +1,33 @@
+{
+  "name": "sfile",
+  "version": "1.0.0",
+  "description": "Stream File Service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D3Crypt3r15/sfile.git"
+  },
+  "keywords": [
+    "stream",
+    "file"
+  ],
+  "author": "Al3x D3v",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D3Crypt3r15/sfile/issues"
+  },
+  "homepage": "https://github.com/D3Crypt3r15/sfile#readme",
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/env": "^4.2.0",
+    "@supercharge/request-ip": "^1.2.0",
+    "express-useragent": "^1.0.15",
+    "fastify": "^4.14.1",
+    "fastify-mongoose-driver": "^3.2.0",
+    "file-type": "^16.5.4",
+    "mongoose": "^7.0.1"
+  }
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=Stream File Service.
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /var/www/sfile/src/index.js
+Restart=on-failure
+User=root
+WorkingDirectory=/var/www/sfile
+
+[Install]
+WantedBy=multi-user.target
